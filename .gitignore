@@ -1,0 +1,16 @@
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+.vscode
+.vs
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+Content/PhotoR_Backgrounds/Meshes/360d_Horizon/Canyon_a_low/PR_canyon_a_low_R.uasset
+Content/PhotoR_Backgrounds/Meshes/360d_Horizon/Canyon_a_low/PR_canyon_a_low_U.uasset
