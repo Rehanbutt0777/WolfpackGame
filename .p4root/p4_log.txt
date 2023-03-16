@@ -1,0 +1,93 @@
+Perforce server info:
+	2023/03/02 04:11:20 pid 26133 morningstar@morningstar-dvcs-1677712211 unknown [Helix P4V/MACOSX12U/2023.1/2411289/v93] 'user-add -d -f -c 1 /Users/slim_shady/Documents/Unreal Projects/Wolfpack/PhotoR_Backgrounds.png /Users/slim_shady/Documents/Unreal Projects/Wolfpack/README.md /Users/slim_shady/Documents/Unreal Projects/Wolfpack/Wolfpack.uproject /Users/slim_shady/Documents/Unreal Projects/Wolfpack/Config/DefaultEditor.ini (2648) /Users/slim_shady/Documents/Unreal Projects/Wolfpack/Saved/Autosaves/Game/Weapons/MilitaryWeapDark/Weapons/Pistols_B_Auto8.uasset'
+--- rpc msgs/size in+out 3980+6633/1mb+2mb himarks 2000/2000 snd/rcv .000s/.863s
+--- db.stream
+---   pages in+out+cached 2656+0+2
+---   locks read/write 2656/0 rows get+pos+scan put+del 2654+4+4 0+0
+--- db.have
+---   pages in+out+cached 2655+0+2
+---   locks read/write 2653/0 rows get+pos+scan put+del 0+2653+2653 0+0
+--- db.revdx
+---   pages in+out+cached 2655+0+2
+---   locks read/write 2653/0 rows get+pos+scan put+del 0+2653+2653 0+0
+--- db.revhx
+---   pages in+out+cached 2655+0+2
+---   locks read/write 2653/0 rows get+pos+scan put+del 0+2653+2653 0+0
+--- db.rev
+---   locks read/write 2653/0 rows get+pos+scan put+del 0+0+0 0+0
+--- db.locks
+---   pages in+out+cached 2788+382+81
+---   pages split internal+leaf 1+74
+---   locks read/write 2653/27 rows get+pos+scan put+del 0+2653+2653 2653+0
+--- db.working
+---   pages in+out+cached 2872+624+96
+---   pages split internal+leaf 2+150
+---   locks read/write 2653/27 rows get+pos+scan put+del 2653+2653+2653 2653+0
+--- clients/morningstar-dvcs-1677712211(W)
+---   total lock wait+held read/write 0ms+0ms/0ms+1458ms
+
+Perforce server info:
+	2023/03/02 04:11:59 pid 26137 morningstar@morningstar-dvcs-1677712211 unknown [Helix P4V/MACOSX12U/2023.1/2411289/v93] 'dm-SubmitChange'
+--- lapse 242s
+--- usage 211373+5587us 0+1io 1178967+2632net 21520384k 19pf 
+--- rpc msgs/size in+out 156168+7963/9189mb+2mb himarks 2000/2000 snd/rcv .000s/.448s
+--- db.locks
+---   locks read/write 0/28 rows get+pos+scan put+del 0+2653+5306 2653+0
+--- db.working
+---   pages in+out+cached 517+382+96
+---   locks read/write 1/28 rows get+pos+scan put+del 5306+1+2654 5306+0
+--- lbr Compress
+---   opens+closes+checkins+exists 2653+2653+2653+0
+---   reads+readbytes+writes+writebytes 0+0+148206+9G
+
+Perforce server info:
+	2023/03/02 04:16:01 pid 26137 morningstar@morningstar-dvcs-1677712211 unknown [Helix P4V/MACOSX12U/2023.1/2411289/v93] 'dm-CommitSubmit'
+--- meta/commit(W)
+---   total lock wait+held read/write 0ms+0ms/0ms+104ms
+
+Perforce server info:
+	2023/03/02 04:16:01 pid 26137 morningstar@morningstar-dvcs-1677712211 unknown [Helix P4V/MACOSX12U/2023.1/2411289/v93] 'dm-CommitSubmit'
+--- clients/morningstar-dvcs-1677712211(W)
+---   total lock wait+held read/write 0ms+0ms/0ms+123ms
+
+Perforce server info:
+	2023/03/02 04:16:01 pid 26137 morningstar@morningstar-dvcs-1677712211 unknown [Helix P4V/MACOSX12U/2023.1/2411289/v93] 'dm-CommitSubmit'
+--- meta/db(R)
+---   total lock wait+held read/write 0ms+123ms/0ms+0ms
+
+Perforce server info:
+	2023/03/02 04:16:01 pid 26137 morningstar@morningstar-dvcs-1677712211 unknown [Helix P4V/MACOSX12U/2023.1/2411289/v93] 'dm-CommitSubmit'
+--- db.user
+---   total lock wait+held read/write 0ms+104ms/0ms+0ms
+--- db.domain
+---   total lock wait+held read/write 0ms+104ms/0ms+0ms
+--- db.have
+---   pages in+out+cached 52+140+50
+---   locks read/write 0/1 rows get+pos+scan put+del 0+0+0 2653+0
+--- db.integed
+---   total lock wait+held read/write 0ms+0ms/0ms+104ms
+--- db.integtx
+---   total lock wait+held read/write 0ms+0ms/0ms+104ms
+--- db.storagesh
+---   total lock wait+held read/write 0ms+104ms/0ms+0ms
+--- db.storage
+---   pages in+out+cached 58+164+58
+---   locks read/write 0/1 rows get+pos+scan put+del 5306+0+0 2653+0
+---   total lock wait+held read/write 0ms+0ms/0ms+104ms
+--- db.revhx
+---   pages in+out+cached 88+245+87
+---   locks read/write 1/1 rows get+pos+scan put+del 0+1+1 2653+0
+--- db.revcx
+---   pages in+out+cached 41+107+39
+---   locks read/write 0/1 rows get+pos+scan put+del 0+0+0 2653+0
+--- db.rev
+---   pages in+out+cached 88+245+87
+---   locks read/write 1/1 rows get+pos+scan put+del 2653+0+0 2653+0
+--- db.locks
+---   locks read/write 0/2 rows get+pos+scan put+del 0+2653+2653 0+2653
+--- db.working
+---   pages in+out+cached 314+159+96
+---   locks read/write 1/2 rows get+pos+scan put+del 0+1+2654 0+2653
+--- storageup/storageup(R)
+---   total lock wait+held read/write 0ms+123ms/0ms+0ms
+
